@@ -6,3 +6,7 @@ Which one of them is the better one ?
 > 2. Running on different machines  
 
 Therefore , theoretical analysis and mathematical tools helps in determining better code , so that you do not depend upon programming language and machine. The analysis which helps in determining this is called Asymptotic Analysis.
+
+## Big O Notation
+
+We say f(n) = O(g(n)) iff there exists constants c and no such that f(n) <= cg(n) for all n>=no  
