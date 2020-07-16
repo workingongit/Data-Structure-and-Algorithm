@@ -32,7 +32,7 @@ int linearsearch(int x,int arr[],int n)
 ```  
 The above code is O(n). As O(n) is __upper bound__ it covers everything i.e. best case (c), average case. That's why it is the most used notation.  
 
-{3n², 4n², 3n²/2, log(n), 2log(n)} ∈ O(n²) -> This indicates that lower order comes under O(n²) as well.  
+>{3n², 4n², 3n²/2, log(n), 2log(n)} ∈ O(n²) -> This indicates that lower order comes under O(n²) as well.  
 
 ## Omega Notation (Lower Bound)  
 
@@ -40,9 +40,9 @@ We say f(n) = Ω(g(n)) iff there exist positive constants c and n∘ such that 0
  
 ![Screenshot 2020-07-17 at 12 37 20 AM](https://user-images.githubusercontent.com/68182511/87712099-d4bf1a00-c7c5-11ea-8674-08fde32c31ed.png)
 
-{n, n/2, 3n², 4n²/5, n³,...} ∈ O(n) -> This indicates that higher order comes under O(n) as well.  
+>{n, n/2, 3n², 4n²/5, n³,...} ∈ O(n) -> This indicates that higher order comes under O(n) as well.  
 
-f(n) = Ω(g(n))
+f(n) = Ω(g(n))  
 g(n) = O(f(n))  
 
 
