@@ -58,7 +58,8 @@ g(n) = O(f(n))
 
 f(n) = θ(g(n)) iff there exists a postive constant c1 ,c2 and n∘ such that 0 <= c1g(n) <= f(n) <= c2g(n)  
 
-![Screenshot 2020-07-17 at 1 20 18 AM](https://user-images.githubusercontent.com/68182511/87715983-c5db6600-c7cb-11ea-941c-40eda1841010.png)  
+![Screenshot 2020-07-17 at 1 20 18 AM](https://user-images.githubusercontent.com/68182511/87716569-a3961800-c7cc-11ea-9b65-97b8b2ad8a75.png)
+
 
 
 
