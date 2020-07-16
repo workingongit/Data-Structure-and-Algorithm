@@ -38,12 +38,31 @@ The above code is O(n). As O(n) is __upper bound__ it covers everything i.e. bes
 
 We say f(n) = Ω(g(n)) iff there exist positive constants c and n∘ such that 0 <= cg(n) <= f(n) for all n>=n∘  
  
-![Screenshot 2020-07-17 at 12 37 20 AM](https://user-images.githubusercontent.com/68182511/87712099-d4bf1a00-c7c5-11ea-8674-08fde32c31ed.png)
+![Screenshot 2020-07-17 at 12 37 20 AM](https://user-images.githubusercontent.com/68182511/87712099-d4bf1a00-c7c5-11ea-8674-08fde32c31ed.png)  
+
+1. f(n) = 3n² + 4n + 100  
+   Ignore the lower order term and all constant   
+
+   f(n) = Ω(n²)  
+
+2. f(n) = 3n + 4logn + 140     
+   f(n) = Ω(n)  
+
 
 >{n, n/2, 3n², 4n²/5, n³,...} ∈ O(n) -> This indicates that higher order comes under O(n) as well.  
 
 f(n) = Ω(g(n))  
-g(n) = O(f(n))  
+g(n) = O(f(n)) 
+
+## Theta Notation (Exact Order of Growth)
+
+f(n) = θ(g(n)) iff there exists a postive constant c1 ,c2 and n∘ such that 0 <= c1g(n) <= f(n) <= c2g(n)  
+
+![Screenshot 2020-07-17 at 1 20 18 AM](https://user-images.githubusercontent.com/68182511/87715983-c5db6600-c7cb-11ea-941c-40eda1841010.png)  
+
+
+
+
 
 
 
